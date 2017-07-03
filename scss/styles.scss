@@ -15,53 +15,64 @@ body {
 
 
 h1.logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   margin-top: 40px;
   margin-bottom: 60px;
 
-  // background: red;
-    //
-    // @media #{$desktop} {
-    //   font-size: 80px;
-    // }
+
     @media #{$tablet} {
       font-size: 30px;
     }
     @media #{$mobile} {
-      font-size: 50px;
-
+      font-size: 20px;
+      margin-top: 10px;
     }
-
 }
-h1 {
-    font-size: 40px;
+
+
+//not sure if any of this should even be displayed on phone
+
+h1.heading {
+    font-size: 50px;
     max-width: 430px;
     color: white;
 
-    // @media #{$desktop} {
-    //   font-size: 60px;
-    // }
     @media #{$tablet} {
       font-size: 60px;
     }
     @media #{$mobile} {
-      font-size: 20px;
+      font-size: 10px;
 
     }
+}
 
 
+h3 {
+  font-size: 14px;
+  max-width: 300px;
+  color: white;
+  line-height: 16px;
+  padding-bottom: 20px;
+
+
+    @media #{$tablet} {
+      font-size: 60px;
+    }
+    @media #{$mobile} {
+      font-size: 10px;
+
+    }
 }
 
 p {
   padding-top: 40px;
   font-weight: 100;
+  line-height: 20px;
 }
 
 
 
-.subheading {
-  font-size: 12px;
-}
 
 .button {
     background: none;
@@ -98,11 +109,7 @@ p {
     color: #FFF;
 }
 
-.map {
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-}
+
 
 
 //glyphicons
@@ -121,47 +128,6 @@ p {
 
 
 
-//
-// body {
-//           position: relative;
-//           height: 100%;
-//       }
-//
-//
-//
-//       pre {
-//           tab-size: 8;
-//       }
-//
-//       @media screen and (max-width: 768px) {
-//           .side-collapse-container{
-//               width:100%;
-//               position:relative;
-//               right:0;
-//               transition:left .4s;
-//           }
-//           .side-collapse-container.out{
-//               right:200px;
-//           }
-//           .side-collapse {
-//               top:50px;
-//               bottom:0;
-//               right:0;
-//               width:200px;
-//               position:fixed;
-//               overflow:hidden;
-//               transition:width .4s;
-//           }
-//
-//
-//           .side-collapse.in {
-//               width:0;
-//           }
-//       }
-
-
-
-
 .form-group {
   padding-top: 40px;
   font-weight: 100;
@@ -175,33 +141,4 @@ p {
     border-bottom: 2px solid white;
 
     }
-}
-
-
-div.textSection {
-
-  h1 {
-
-  }
-  h3 {
-
-  }
-}
-
-
-section.footer {
-  width: 100%;
-
-  background: red;
-  display: block;
-  position: relative;
-  // bottom: 0;
-  // left: 0;
-  // right: 0;
-  @media #{$tablet} {
-
-  }
-  @media #{$mobile} {
-
-  }
 }

@@ -1,3 +1,8 @@
+
+/* https://codepen.io/erikterwan/pen/EVzeRP */
+
+
+
 header.switchnav {
   top: 0;
   right :0;
@@ -107,7 +112,7 @@ header.switchnav {
 }
 
 /*
- * Ohyeah and the last one should go the other direction
+ the last one should go the other direction
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {

@@ -7,15 +7,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/app.js" charset="utf-8"></script>
     <meta name="viewport" content="width = device-width, initial-scale = 1">
   </head>
   <body>
-
     <header class="switchnav">
       <div id="menuToggle">
         <!--
@@ -24,16 +21,11 @@
         -->
         <input type="checkbox" />
 
-        <!--
-        Some spans to act as a hamburger.
-        -->
         <span></span>
         <span></span>
         <span></span>
-
         <!--
         menu has to be inside of the button
-
         -->
         <ul id="menu">
           <a href="#"><li>Home</li></a>
@@ -45,52 +37,37 @@
     </header>
 
 
-
-
-
-
-    <section class="top">
+  <section class="top">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
             <div class="item active">
                 <img src="images/mm.jpg" width="100%" alt="First Slide">
-
             </div>
             <div class="item">
-                <img src="images/bill.jpg" width="100%" alt="Second Slide">
+                  <img src="images/bill.jpg" width="100%" alt="Second Slide">
             </div>
         </div>
-
-
-
-
       </div>
 
-      <!-- <div class="main-text"> -->
-
-
+      <div class="main-text">
         <div class="container">
-
           <div class="row">
-            <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-2">
+            <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-6 col-xs-offset-1">
                 <h1 class="logo">Logo</h1>
             </div>
           </div>
-
         </div>
 
-          <div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 col-xs-6 col-xs-offset-2 textSection">
-            <h1>Best new ads from our partners</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
-            <a class="button" href="Projects.php">Find out more</a>
-          </div>
+        <div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 col-xs-6 col-xs-offset-2  hidden-xs hidden-sm">
+          <h1 class="heading">Best new ads from our partners</h1>
+          <h3 class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo.</h3>
+          <a class="button" href="Projects.php">Find out more</a>
+        </div>
 
 
           <!-- Carousel controls -->
-          <div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2">
+          <div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 hidden-xs hidden-sm">
             <div class="arrows">
               <a class="" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left glyp"></span>
@@ -101,33 +78,22 @@
             </div>
         </div>
 
-      <!-- </div> -->
-    </section>
-
-
-    <section class="footer">
-      <div class="row">
-
-        <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-
-        <div class="col-md-4 col-sm-4 col-sm-offset-1">
-          <form>
-            <div class="form-group">
-              <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-          </form>
-        </div>
       </div>
     </section>
 
 
-
-
-
-
-
+    <section class="footer">
+      <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-8 col-xs-offset-1">
+        <form>
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

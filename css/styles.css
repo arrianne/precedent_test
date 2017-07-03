@@ -5806,6 +5806,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/* https://codepen.io/erikterwan/pen/EVzeRP */
 header.switchnav {
   top: 0;
   right: 0;
@@ -5886,7 +5887,7 @@ header.switchnav {
   transform: rotate(0deg) scale(0.2, 0.2); }
 
 /*
- * Ohyeah and the last one should go the other direction
+ the last one should go the other direction
  */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
@@ -5927,6 +5928,7 @@ body {
   color: white; }
 
 h1.logo {
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   margin-top: 40px;
   margin-bottom: 60px; }
@@ -5935,25 +5937,37 @@ h1.logo {
       font-size: 30px; } }
   @media (max-width: 600px) {
     h1.logo {
-      font-size: 50px; } }
+      font-size: 20px;
+      margin-top: 10px; } }
 
-h1 {
-  font-size: 40px;
+h1.heading {
+  font-size: 50px;
   max-width: 430px;
   color: white; }
   @media (min-width: 600px) and (max-width: 800px) {
-    h1 {
+    h1.heading {
       font-size: 60px; } }
   @media (max-width: 600px) {
-    h1 {
-      font-size: 20px; } }
+    h1.heading {
+      font-size: 10px; } }
+
+h3 {
+  font-size: 14px;
+  max-width: 300px;
+  color: white;
+  line-height: 16px;
+  padding-bottom: 20px; }
+  @media (min-width: 600px) and (max-width: 800px) {
+    h3 {
+      font-size: 60px; } }
+  @media (max-width: 600px) {
+    h3 {
+      font-size: 10px; } }
 
 p {
   padding-top: 40px;
-  font-weight: 100; }
-
-.subheading {
-  font-size: 12px; }
+  font-weight: 100;
+  line-height: 20px; }
 
 .button {
   background: none;
@@ -5984,11 +5998,6 @@ p {
   width: 96.66666666666666%;
   color: #FFF; }
 
-.map {
-  width: 100%;
-  height: 100%;
-  min-height: 100%; }
-
 .glyp {
   color: white;
   text-decoration: none;
@@ -6010,11 +6019,5 @@ p {
     outline: 0;
     background: transparent;
     border-bottom: 2px solid white; }
-
-section.footer {
-  width: 100%;
-  background: red;
-  display: block;
-  position: relative; }
 
 /*# sourceMappingURL=styles.css.map */
